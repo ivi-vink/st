@@ -33,7 +33,7 @@
 #include <wchar.h>
 
 #include "arg.h"
-#include "xdg-shell-client-protocol.h"
+#include "xdg-shell-unstable-v5-client-protocol.h"
 
 char *argv0;
 
@@ -4569,4 +4569,3 @@ run:
 
 	return 0;
 }
-
